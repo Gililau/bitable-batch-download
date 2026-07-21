@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist -b gh-pages"
   },
   "output": "dist",
   "description": "",
@@ -20,5 +21,9 @@
     "jszip": "^3.10.1",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://gililau.github.io/bitable-batch-download/"
 }
